@@ -8,6 +8,7 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
+    // base: '/hackathon---Odoo/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
